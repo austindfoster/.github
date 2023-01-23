@@ -8,7 +8,7 @@ Now that you know how HTML works it is time to put it to use and create your fir
 
 1. [Fork this repository](https://github.com/webprogramming260/website-html/fork) and clone it to your development environment. For information about how to fork a GitHub repository read [this documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 1. The repository contains four important files, `index.html`, `index.css`, `profile.png` and `deployWebsite.sh`. `index.html` contains a template HTML document. `deployWebsite.sh` contains a console shell script for deploying a new home page for your. Open up and review these files.
-1. Modify `index.html` to personalize it to yourself. Don't worry about making it look pretty at this point. You are only trying to get the content and structure right. You can come back later and style it with CSS and make it interactive with JavaScript.
+1. Modify `index.html` to personalize it to yourself. Don't worry about making it look pretty at this point. You are only trying to get the content and structure right. You can come back later and style it with CSS and make it interactive with JavaScript. **Make sure not to rename index.html as your server is expecting that exact filename to route to your page.**
 1. Give a brief profile description about yourself.
 1. Include links to the CodePens for your assignments.
 1. Replace the `profile.png` image with an image of yourself. Make sure the image is small (< 100 KB) so that you don't eat up your production server's limited hard drive space. If the file is not a PNG then make sure you change the file name and the `src` attribute in the `img` element.
